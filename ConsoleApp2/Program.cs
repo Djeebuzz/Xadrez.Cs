@@ -20,7 +20,7 @@ namespace Xadrez {
 
             Console.ReadLine();
 
-
+            
 
 
         }
