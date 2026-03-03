@@ -13,7 +13,7 @@ namespace tabuleiro
         {
             this.linhas = linhas;  
             this.colunas = colunas;
-            pecas = new Peca[linhas,colunas];
+            pecas = new Peca[linhas, colunas];
         }
 
 

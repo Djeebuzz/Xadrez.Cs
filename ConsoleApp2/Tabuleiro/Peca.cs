@@ -17,7 +17,7 @@ namespace tabuleiro
             this.posicao = posicao;
             this .tab = tab;
             this.cor = cor;
-            this.qtdMovimentos = 0; 
+            this.qtdMovimentos = 0;
             
         }
 
