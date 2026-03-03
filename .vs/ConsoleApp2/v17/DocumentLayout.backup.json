@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tabuleiro\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\tabuleiro\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tabuleiro\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\tabuleiro\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tabuleiro\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\tabuleiro\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tabuleiro\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\tabuleiro\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tabuleiro\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\tabuleiro\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tabuleiro\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\tabuleiro\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tabuleiro\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\tabuleiro\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,51 +34,55 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Tabuleiro.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Tabuleiro.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Tabuleiro\\Tabuleiro.cs",
               "ToolTip": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Tabuleiro.cs",
               "RelativeToolTip": "ConsoleApp2\\Tabuleiro\\Tabuleiro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T14:44:27.55Z"
+              "WhenOpened": "2026-03-03T14:44:27.55Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Peca.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Peca.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Tabuleiro\\Peca.cs",
               "ToolTip": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Peca.cs",
               "RelativeToolTip": "ConsoleApp2\\Tabuleiro\\Peca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T14:41:51.484Z"
+              "WhenOpened": "2026-03-03T14:41:51.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Cor.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Cor.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Tabuleiro\\Cor.cs",
               "ToolTip": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Cor.cs",
               "RelativeToolTip": "ConsoleApp2\\Tabuleiro\\Cor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T14:40:37.258Z"
+              "WhenOpened": "2026-03-03T14:40:37.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Posicao.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Posicao.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Tabuleiro\\Posicao.cs",
               "ToolTip": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Posicao.cs",
               "RelativeToolTip": "ConsoleApp2\\Tabuleiro\\Posicao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T15:53:05.708Z"
+              "WhenOpened": "2026-03-02T15:53:05.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
