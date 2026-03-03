@@ -1,5 +1,5 @@
 ﻿using System;
-using Tabuleiro;
+using tabuleiro;
 
 namespace Xadrez {
     class Program
@@ -16,7 +16,9 @@ namespace Xadrez {
             Console.ReadLine();
 
 
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
+            Console.ReadLine();
 
 
 
