@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
-      "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Xadrez-Console.csproj",
+      "projectName": "Xadrez-Console",
+      "projectPath": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Xadrez-Console.csproj",
       "packagesPath": "C:\\Users\\emigu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,33 +1,32 @@
 ﻿using tabuleiro;
 
-namespace ConsoleApp2
+namespace XadrezConsole;
+
+internal class Tela
 {
-    internal class Tela
+
+    public static void imprimirTabuleiro(Tabuleiro tab)
     {
-
-        public static void imprimirTabuleiro(Tabuleiro tab)
+        for (int i = 0; i < tab.linhas; i++)
         {
-            for (int i = 0; i < tab.linhas; i++)
+            for (int j = 0; j < tab.colunas; j++)
             {
-                for (int j = 0; j < tab.colunas; j++)
+                if (tab.peca(i, j) == null)
                 {
-                    if (tab.peca(i, j) == null)
-                    {
-                        Console.Write 
-                            (" - ");
-                    }
-                    else
-                    {
-                        Console.Write
-                            (" " + tab.peca(i, j) + " ");
-                    }
-
+                    Console.Write 
+                        (" - ");
                 }
-                Console.WriteLine();
-            }
-            
+                else
+                {
+                    Console.Write
+                        (" " + tab.peca(i, j) + " ");
+                }
 
-            
+            }
+            Console.WriteLine();
         }
+        
+
+        
     }
 }
