@@ -4,6 +4,9 @@ namespace tabuleiro
 {
     internal class Peca
     {
+        internal int linha;
+        internal int coluna;
+
         public Posicao posicao {get; set;}
 
         public Cor cor {get; protected set;}
@@ -20,6 +23,9 @@ namespace tabuleiro
             this.qtdMovimentos = 0;
             
         }
-
+        public void aumentarQtdMovimentos()
+        {
+            qtdMovimentos++;
+        }
     }
 }
