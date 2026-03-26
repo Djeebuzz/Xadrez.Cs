@@ -48,6 +48,7 @@ internal class Tela
                 Console.Write(" ");
                 imprimirPeca(tab.peca(i, j));
                 Console.Write(" ");
+                Console.BackgroundColor = fundoOriginal;
             }
 
             Console.WriteLine();
