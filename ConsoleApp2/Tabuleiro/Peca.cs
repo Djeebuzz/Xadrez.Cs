@@ -2,7 +2,7 @@
 
 namespace tabuleiro
 {
-    internal class Peca
+    abstract class Peca
     {
         internal int linha;
         internal int coluna;
@@ -27,5 +27,8 @@ namespace tabuleiro
         {
             qtdMovimentos++;
         }
+
+        public abstract bool[,] movimentosPossiveis();
+       
     }
 }

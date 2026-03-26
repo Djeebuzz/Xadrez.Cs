@@ -1,5 +1,6 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System;
 using tabuleiro;
+using Xadrez;
 
 namespace XadrezConsole;
 
@@ -10,41 +11,91 @@ internal class Tela
     {
         for (int i = 0; i < tab.linhas; i++)
         {
-            Console.Write(8 - i + "  ");
+            Console.Write(8 - i + "");
             for (int j = 0; j < tab.colunas; j++)
             {
-                if (tab.peca(i, j) == null)
-                {
-                    Console.Write
-                        (" - ");
-                }
-                else
-                {
+
                     Console.Write(" ");
                     imprimirPeca(tab.peca(i, j));
                     Console.Write(" ");
-                }
             }
+            
             Console.WriteLine();
         }
-        Console.Write("    A  B  C  D  E  F  G  H");
+        Console.Write("  A   B   C   D   E   F   G   H");
+    }
+    public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoePossiveis)
+    {
+        ConsoleColor fundoOriginal = Console.BackgroundColor;
+        ConsoleColor fundoAlterado = ConsoleColor.DarkGray;
+
+
+        for (int i = 0; i < tab.linhas; i++)
+        {
+            Console.Write(8 - i + "");
+           
+            for (int j = 0; j < tab.colunas; j++)
+            {
+                if (posicoePossiveis[i, j])
+                {
+                    Console.BackgroundColor = fundoAlterado;
+                }
+                else
+                {
+                    Console.BackgroundColor = fundoOriginal;
+                }
+
+                Console.Write(" ");
+                imprimirPeca(tab.peca(i, j));
+                Console.Write(" ");
+            }
+
+            Console.WriteLine();
+        }
+        Console.Write("  A   B   C   D   E   F   G   H");
+        Console.BackgroundColor = fundoOriginal;
+    } 
+    public static PosicaoXadrez lerPosicaoXadrez()
+    {
+        string s = Console.ReadLine();
+        char coluna = s[0];
+        int linha = int.Parse(s[1] + "");
+        return new PosicaoXadrez(coluna, linha);
+
     }
 
-        public static void imprimirPeca(Peca peca)
+
+
+
+    public static void imprimirPeca(Peca peca)
     {
-        if (peca.cor == Cor.Branca)
+        if (peca == null)
         {
-            Console.Write(peca);
+            Console.Write
+                ("- ");
         }
         else
         {
-            ConsoleColor aux = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write(peca);
-            Console.ForegroundColor = aux;
+            if (peca.cor == Cor.Branca)
+            {
+               
+                Console.Write(peca);
+                Console.Write(" ");
+            }
+            else
+            {
+                ConsoleColor aux = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Red;
+                
+                Console.Write(peca);
+                Console.Write(" ");
+
+                Console.ForegroundColor = aux;
+            }
+
+
         }
     }
-
 
 }
 
