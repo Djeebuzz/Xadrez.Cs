@@ -1,12 +1,45 @@
 ﻿using System;
 using tabuleiro;
 using Xadrez;
+using System.Collections.Generic;
 
 namespace XadrezConsole;
 
 internal class Tela
 {
+    public static void imprimirPartida(PartidaDeXadrez partida)
+    {
+        imprimirTabuleiro(partida.tab);
+        Console.WriteLine();
+        imprimirPecasCapturadas(partida);
+        Console.WriteLine();
+        Console.WriteLine("Turno: " + partida.turno);
+        Console.WriteLine("Agurdando a jogada da " + partida.jogadorActual);
+        Console.WriteLine();
+    }
 
+    public static void imprimirPecasCapturadas(PartidaDeXadrez partida)
+    {
+        Console.WriteLine("Pecas Capturadas: ");
+        Console.Write("Brancas: ");
+        imprimirConjunto(partida.pecasCapturadas(Cor.Branca));
+        Console.Write("Pretas: ");
+        ConsoleColor aux = Console.ForegroundColor;
+        Console.ForegroundColor = ConsoleColor.Red;
+        imprimirConjunto(partida.pecasCapturadas(Cor.Preta));
+        Console.ForegroundColor = aux;
+        Console.WriteLine();
+    }
+
+    public static void imprimirConjunto(HashSet<Peca> conjunto)
+    {
+        Console.Write("[");
+        foreach (Peca x in conjunto)
+        {
+            Console.Write(x + " ");
+        } 
+        Console.WriteLine("]");
+    }
     public static void imprimirTabuleiro(Tabuleiro tab)
     {
         for (int i = 0; i < tab.linhas; i++)
@@ -18,8 +51,7 @@ internal class Tela
                     Console.Write(" ");
                     imprimirPeca(tab.peca(i, j));
                     Console.Write(" ");
-            }
-            
+            }           
             Console.WriteLine();
         }
         Console.Write("  A   B   C   D   E   F   G   H");
@@ -48,13 +80,13 @@ internal class Tela
                 Console.Write(" ");
                 imprimirPeca(tab.peca(i, j));
                 Console.Write(" ");
-                Console.BackgroundColor = fundoOriginal;
             }
 
             Console.WriteLine();
         }
         Console.Write("  A   B   C   D   E   F   G   H");
         Console.BackgroundColor = fundoOriginal;
+        
     } 
     public static PosicaoXadrez lerPosicaoXadrez()
     {
