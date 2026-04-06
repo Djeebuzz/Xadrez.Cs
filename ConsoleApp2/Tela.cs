@@ -14,10 +14,18 @@ internal class Tela
         imprimirPecasCapturadas(partida);
         Console.WriteLine();
         Console.WriteLine("Turno: " + partida.turno);
-        Console.WriteLine("Agurdando a jogada da " + partida.jogadorActual);
-       if (partida.xeque)
+        if (!partida.terminada)
         {
-            Console.WriteLine("Xeque!!!");
+            Console.WriteLine("Agurdando a jogada da " + partida.jogadorActual);
+            if (partida.xeque)
+            {
+                Console.WriteLine("Xeque!!!");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Xeque-Mate");
+            Console.WriteLine("Vencedor: " + partida.jogadorActual);
         }
     }
 
