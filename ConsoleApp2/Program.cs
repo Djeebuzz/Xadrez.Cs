@@ -29,6 +29,8 @@ namespace XadrezConsole
                         Console.Clear();
                         Tela.imprimirTabuleiro(partida.tab, posicoesPossiveis);
                         Console.WriteLine();
+                        Tela.imprimirPecasCapturadas(partida);
+                        Console.WriteLine();
                         Console.WriteLine("Turno:" + partida.turno);
                         Console.WriteLine("Agurdando a jogada da: " + partida.jogadorActual);
                         Console.WriteLine();

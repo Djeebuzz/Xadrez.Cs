@@ -66,6 +66,7 @@ internal class Tela
             Console.WriteLine();
         }
         Console.Write("  A   B   C   D   E   F   G   H");
+        Console.WriteLine();
     }
     public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoePossiveis)
     {
@@ -97,6 +98,7 @@ internal class Tela
         }
         Console.Write("  A   B   C   D   E   F   G   H");
         Console.BackgroundColor = fundoOriginal;
+        Console.WriteLine();
         
     } 
     public static PosicaoXadrez lerPosicaoXadrez()
