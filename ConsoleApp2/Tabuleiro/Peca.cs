@@ -11,7 +11,7 @@ namespace tabuleiro
 
         public Cor cor {get; protected set;}
 
-        public int qtdMovimentos { get; protected set;}
+        public int qtdMovimentos { get;  set;}
 
         public Tabuleiro tab { get; protected set;} 
 

@@ -55,7 +55,7 @@ internal class Tela
     {
         for (int i = 0; i < tab.linhas; i++)
         {
-            Console.Write(8 - i + "");
+            Console.Write(8 - i + " ");
             for (int j = 0; j < tab.colunas; j++)
             {
 
@@ -65,7 +65,7 @@ internal class Tela
             }           
             Console.WriteLine();
         }
-        Console.Write("  A   B   C   D   E   F   G   H");
+        Console.Write("   A   B   C   D   E   F   G   H");
         Console.WriteLine();
     }
     public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoePossiveis)
@@ -76,7 +76,7 @@ internal class Tela
 
         for (int i = 0; i < tab.linhas; i++)
         {
-            Console.Write(8 - i + "");
+            Console.Write(8 - i + " ");
            
             for (int j = 0; j < tab.colunas; j++)
             {
@@ -92,11 +92,12 @@ internal class Tela
                 Console.Write(" ");
                 imprimirPeca(tab.peca(i, j));
                 Console.Write(" ");
+                Console.BackgroundColor = fundoOriginal;
             }
 
             Console.WriteLine();
         }
-        Console.Write("  A   B   C   D   E   F   G   H");
+        Console.Write("   A   B   C   D   E   F   G   H");
         Console.BackgroundColor = fundoOriginal;
         Console.WriteLine();
         

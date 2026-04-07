@@ -20,7 +20,7 @@ namespace XadrezConsole
                         Console.Clear();
                         Tela.imprimirPartida(partida);
 
-
+                        Console.WriteLine();
                         Console.Write("Origem: ");
                         Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
                         partida.validarPosicaoDeOrigem(origem);
@@ -31,7 +31,7 @@ namespace XadrezConsole
                         Console.WriteLine();
                         Tela.imprimirPecasCapturadas(partida);
                         Console.WriteLine();
-                        Console.WriteLine("Turno:" + partida.turno);
+                        Console.WriteLine("Turno: " + partida.turno);
                         Console.WriteLine("Agurdando a jogada da: " + partida.jogadorActual);
                         Console.WriteLine();
                         Console.Write("Destino: ");
