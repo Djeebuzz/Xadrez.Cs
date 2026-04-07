@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\xadrez\\peao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|solutionrelative:consoleapp2\\xadrez\\peao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\xadrez\\partidadexadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|solutionrelative:consoleapp2\\xadrez\\partidadexadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\tela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|solutionrelative:consoleapp2\\tela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\xadrez\\peao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|solutionrelative:consoleapp2\\xadrez\\peao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCA00146-06E1-47B0-8E9F-5D6E6DBC61C0}|ConsoleApp2\\Xadrez-Console.csproj|c:\\users\\emigu\\documents\\programacao\\xadrez-console\\consoleapp2\\consoleapp2\\xadrez\\cavalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Rei.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Xadrez\\Rei.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Xadrez\\Rei.cs",
@@ -62,25 +62,24 @@
               "RelativeToolTip": "ConsoleApp2\\Xadrez\\Rei.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T13:16:03.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T13:16:03.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PartidaDeXadrez.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Xadrez\\PartidaDeXadrez.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Xadrez\\PartidaDeXadrez.cs",
               "ToolTip": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Xadrez\\PartidaDeXadrez.cs",
               "RelativeToolTip": "ConsoleApp2\\Xadrez\\PartidaDeXadrez.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwDEAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAzwOwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T17:59:35.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Tela.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tela.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Tela.cs",
@@ -92,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Peca.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Tabuleiro\\Peca.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Tabuleiro\\Peca.cs",
@@ -100,12 +99,11 @@
               "RelativeToolTip": "ConsoleApp2\\Tabuleiro\\Peca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T18:07:25.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T18:07:25.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "ConsoleApp2\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T18:03:34.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T18:03:34.265Z"
             },
             {
               "$type": "Document",
@@ -130,15 +127,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Peao.cs",
               "DocumentMoniker": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Xadrez\\Peao.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Xadrez\\Peao.cs",
               "ToolTip": "C:\\Users\\emigu\\Documents\\Programacao\\Xadrez-console\\ConsoleApp2\\ConsoleApp2\\Xadrez\\Peao.cs",
               "RelativeToolTip": "ConsoleApp2\\Xadrez\\Peao.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwFgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T09:40:34.674Z"
+              "WhenOpened": "2026-04-06T09:40:34.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
